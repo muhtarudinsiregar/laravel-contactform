@@ -9,7 +9,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "MuhtarudinSiregar\\contactform\\": "src/"
+            "MuhtarudinSiregar\\contactform\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuhtarudinSiregar\\Contactform\\ContactFormServiceProvider"
+            ]
         }
     }
 }
