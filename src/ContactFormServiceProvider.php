@@ -13,6 +13,12 @@ class ContactFormServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/app/Database/migrations');
 
         Blade::component('contactform::components.alert', 'alert');
+
+        $this->publishes(
+            [
+                __DIR__ . '/config/contact/contact.php' => config_path('contact.php'),
+            ]
+        );
     }
     public function register()
     {
