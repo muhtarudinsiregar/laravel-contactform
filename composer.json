@@ -1,0 +1,15 @@
+{
+    "name": "muhtarudinsiregar/contactform",
+    "authors": [
+        {
+            "name": "muhtarudinsiregar",
+            "email": "6048482+muhtarudinsiregar@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MuhtarudinSiregar\\contactform\\": "src/"
+        }
+    }
+}
