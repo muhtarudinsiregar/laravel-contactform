@@ -1,5 +1,13 @@
 {
     "name": "muhtarudinsiregar/contactform",
+    "type": "library",
+    "description": "Easy way to create contact form",
+    "keywords": [
+        "contact-form",
+        "contact"
+    ],
+    "homepage": "https://github.com/muhtarudinsiregar/laravel-contactform",
+    "license": "MIT",
     "authors": [
         {
             "name": "muhtarudinsiregar",
@@ -18,6 +26,5 @@
                 "MuhtarudinSiregar\\Contactform\\ContactFormServiceProvider"
             ]
         }
-    },
-    "license": "MIT"
+    }
 }
